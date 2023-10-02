@@ -2,7 +2,7 @@
 
 To install the Liberty Team 2 branch of FtcRobotController which contains a the TeamCode as a separate, nested repo (i.e. submodule) run the following git command in a place where you'd like to store the source code (ex: C:\FTC):
 
-git clone -b FTCRobotControler_CenterStage2023 --recursive https://github.com/FTC-Liberty-team-two/FtcRobotController.git
+git clone -b FTCRobotController_CenterStage2023 --recursive https://github.com/FTC-Liberty-team-two/FtcRobotController.git
 
 The command should create a clone of a branch of the forked FtcRobotController repo and also clone TeamCode repo (if you have permission).  NOTE: the submodule cloning always defaults the repo to point to a specific commit, which doesn't put the TeamCode repo in a state to track changes.  Once you have completed the clone of the repos, navigate to the TeamCode directory and run the command:
 
